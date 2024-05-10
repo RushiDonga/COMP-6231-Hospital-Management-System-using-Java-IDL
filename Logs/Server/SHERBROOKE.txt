@@ -1,0 +1,32 @@
+DATE: 2024-03-09 10:44:03 PM  Server started....
+DATE: 2024-03-09 10:44:04 PM  Server is Up & Running
+DATE: 2024-03-09 10:44:04 PM  UDP Server Started at port 7777
+DATE: 2024-03-09 10:45:01 PM userID: Admin | RequestType:  addAppointment  | RequestParameters:  appointmentID: MTLA100324 appointmentType: Physician capacity 5  | ServerResponse: Failed: Cannot Add Appointments to servers other than SHERBROOKE
+DATE: 2024-03-09 10:48:44 PM userID: Admin | RequestType:  addAppointment  | RequestParameters:  appointmentID: MTLA100324 appointmentType: Physician capacity 5  | ServerResponse: Failed: Cannot Add Appointments to servers other than SHERBROOKE
+DATE: 2024-03-09 10:56:53 PM  Server started....
+DATE: 2024-03-09 10:56:54 PM  Server is Up & Running
+DATE: 2024-03-09 10:56:54 PM  UDP Server Started at port 7777
+DATE: 2024-03-09 10:57:30 PM userID: Admin | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse:  ...
+DATE: 2024-03-09 10:57:30 PM userID: Admin | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: SHERBROOKE Server, Appointment Slots forPhysician:
+No Events of Type Physician
+**********************************************
+;
+DATE: 2024-03-09 10:57:58 PM userID: Admin | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse:  ...
+DATE: 2024-03-09 10:57:58 PM userID: Admin | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: SHERBROOKE Server, Appointment Slots forPhysician:
+No Events of Type Physician
+**********************************************
+;
+DATE: 2024-03-09 11:00:11 PM  Server started....
+DATE: 2024-03-09 11:00:11 PM  Server is Up & Running
+DATE: 2024-03-09 11:00:11 PM  UDP Server Started at port 7777
+DATE: 2024-03-09 11:00:54 PM userID: Admin | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse:  ...
+DATE: 2024-03-09 11:00:54 PM userID: Admin | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: SHERBROOKE Server, Appointment Slots forPhysician:
+No Events of Type Physician
+**********************************************
+;
+DATE: 2024-03-15 06:59:19 PM  Server started....
+DATE: 2024-03-15 06:59:22 PM  Server is Up & Running
+DATE: 2024-03-15 06:59:22 PM  UDP Server Started at port 7777
+DATE: 2024-03-15 08:32:44 PM  Server started....
+DATE: 2024-03-15 08:32:45 PM  Server is Up & Running
+DATE: 2024-03-15 08:32:45 PM  UDP Server Started at port 7777

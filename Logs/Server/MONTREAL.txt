@@ -1,0 +1,110 @@
+DATE: 2024-03-09 10:44:03 PM  Server started....
+DATE: 2024-03-09 10:44:04 PM  Server is Up & Running
+DATE: 2024-03-09 10:44:04 PM  UDP Server Started at port 6666
+DATE: 2024-03-09 10:56:53 PM  Server started....
+DATE: 2024-03-09 10:56:54 PM  Server is Up & Running
+DATE: 2024-03-09 10:56:54 PM  UDP Server Started at port 6666
+DATE: 2024-03-09 10:57:05 PM userID: Admin | RequestType:  addAppointment  | RequestParameters:  appointmentID: MTLE100324 appointmentType: Surgeon capacity 2  | ServerResponse: Success: Appointment MTLE100324 added successfully
+DATE: 2024-03-09 10:57:05 PM userID: MTLP2345 | RequestType:  bookAppointment  | RequestParameters:  appointmentID: MTLE100324 appointmnentType: Surgeon  | ServerResponse: Success: Appointment Slot MTLE100324 Booked Successfully
+DATE: 2024-03-09 10:57:05 PM userID: MTLP4567 | RequestType:  bookAppointment  | RequestParameters:  appointmentID: MTLE100324 appointmnentType: Surgeon  | ServerResponse: Success: Appointment Slot MTLE100324 Booked Successfully
+DATE: 2024-03-09 10:57:05 PM userID: MTLP3456 | RequestType:  bookAppointment  | RequestParameters:  appointmentID: MTLE100324 appointmnentType: Surgeon  | ServerResponse: Failed: Appointment Slot MTLE100324 is Full
+DATE: 2024-03-09 10:57:05 PM userID: MTLP6789 | RequestType:  bookAppointment  | RequestParameters:  appointmentID: MTLE100324 appointmnentType: Surgeon  | ServerResponse: Failed: Appointment Slot MTLE100324 is Full
+DATE: 2024-03-09 10:57:05 PM userID: MTLP3456 | RequestType:  RMI cancelEvent  | RequestParameters:  appointmentID: MTLE100324 appointmentType: Surgeon  | ServerResponse: Failed: You MTLP3456 Are Not Registered in MTLE100324
+DATE: 2024-03-09 10:57:05 PM userID: MTLP4567 | RequestType:  cancelEvent  | RequestParameters:  appointmentID: MTLE100324 appointmentType: Surgeon  | ServerResponse: Success: Appointment MTLE100324 Canceled for MTLP4567
+DATE: 2024-03-09 10:57:05 PM userID: MTLP2345 | RequestType:  addPatientsToNextSameEvent  | RequestParameters:  appointmentID: MTLE100324 appointmentType: Surgeon  | ServerResponse: Acquiring nextSameAppointment: Failed
+DATE: 2024-03-09 10:57:05 PM userID: Admin | RequestType:  removeAppointment  | RequestParameters:  appointmentID: MTLE100324 appointmentName: Surgeon  | ServerResponse: Success: Appointment removed successfully
+DATE: 2024-03-09 10:57:23 PM userID: Admin | RequestType:  addAppointment  | RequestParameters:  appointmentID: MTLA100324 appointmentType: Physician capacity 4  | ServerResponse: Success: Appointment MTLA100324 added successfully
+DATE: 2024-03-09 10:57:30 PM userID: Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-09 10:57:30 PM userID: Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  eventID: null appointmentType: Physician  | ServerResponse: QUEBEC Server, Appointment Slots forPhysician:
+No Events of Type Physician
+**********************************************
+
+DATE: 2024-03-09 10:57:30 PM userID: Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-09 10:57:30 PM userID: Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  eventID: null appointmentType: Physician  | ServerResponse: SHERBROOKE Server, Appointment Slots forPhysician:
+No Events of Type Physician
+**********************************************
+
+DATE: 2024-03-09 10:57:30 PM userID: Admin | RequestType:  listAppointmentAvailability  | RequestParameters:   appointmenType: Physician  | ServerResponse: MONTREAL Server Physician:
+ (MTLA100324) in the Afternoon of 10/03/2024 Total[Remaining] Capacity: 4[4] || 
+**********************************************
+QUEBEC Server, Appointment Slots forPhysician:
+No Events of Type Physician
+**********************************************
+SHERBROOKE Server, Appointment Slots forPhysician:
+No Events of Type Physician
+**********************************************
+
+DATE: 2024-03-09 10:57:54 PM userID: Admin | RequestType:  removeAppointment  | RequestParameters:  appointmentID: MTLA100324 appointmentName: Physician  | ServerResponse: Success: Appointment removed successfully
+DATE: 2024-03-09 10:57:58 PM userID: Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-09 10:57:58 PM userID: Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  eventID: null appointmentType: Physician  | ServerResponse: QUEBEC Server, Appointment Slots forPhysician:
+No Events of Type Physician
+**********************************************
+
+DATE: 2024-03-09 10:57:58 PM userID: Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-09 10:57:58 PM userID: Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  eventID: null appointmentType: Physician  | ServerResponse: SHERBROOKE Server, Appointment Slots forPhysician:
+No Events of Type Physician
+**********************************************
+
+DATE: 2024-03-09 10:57:58 PM userID: Admin | RequestType:  listAppointmentAvailability  | RequestParameters:   appointmenType: Physician  | ServerResponse: MONTREAL Server Physician:
+No slot for appointment PhysicianQUEBEC Server, Appointment Slots forPhysician:
+No Events of Type Physician
+**********************************************
+SHERBROOKE Server, Appointment Slots forPhysician:
+No Events of Type Physician
+**********************************************
+
+DATE: 2024-03-09 11:00:11 PM  Server started....
+DATE: 2024-03-09 11:00:11 PM  Server is Up & Running
+DATE: 2024-03-09 11:00:11 PM  UDP Server Started at port 6666
+DATE: 2024-03-09 11:00:33 PM userID: Admin | RequestType:  addAppointment  | RequestParameters:  appointmentID: MTLA100324 appointmentType: Physician capacity 5  | ServerResponse: Success: Appointment MTLA100324 added successfully
+DATE: 2024-03-09 11:00:41 PM userID: Admin | RequestType:  addAppointment  | RequestParameters:  appointmentID: MTLA110324 appointmentType: Physician capacity 5  | ServerResponse: Success: Appointment MTLA110324 added successfully
+DATE: 2024-03-09 11:00:50 PM userID: Admin | RequestType:  addAppointment  | RequestParameters:  appointmentID: MTLA120324 appointmentType: Physician capacity 5  | ServerResponse: Success: Appointment MTLA120324 added successfully
+DATE: 2024-03-09 11:00:54 PM userID: Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-09 11:00:54 PM userID: Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  eventID: null appointmentType: Physician  | ServerResponse: QUEBEC Server, Appointment Slots forPhysician:
+No Events of Type Physician
+**********************************************
+
+DATE: 2024-03-09 11:00:54 PM userID: Admin | RequestType:  UDP request sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse:  ... 
+DATE: 2024-03-09 11:00:54 PM userID: Admin | RequestType:  UDP reply receivedlistAppointmentAvailability  | RequestParameters:  eventID: null appointmentType: Physician  | ServerResponse: SHERBROOKE Server, Appointment Slots forPhysician:
+No Events of Type Physician
+**********************************************
+
+DATE: 2024-03-09 11:00:54 PM userID: Admin | RequestType:  listAppointmentAvailability  | RequestParameters:   appointmenType: Physician  | ServerResponse: MONTREAL Server Physician:
+ (MTLA110324) in the Afternoon of 11/03/2024 Total[Remaining] Capacity: 5[5] ||  (MTLA100324) in the Afternoon of 10/03/2024 Total[Remaining] Capacity: 5[5] ||  (MTLA120324) in the Afternoon of 12/03/2024 Total[Remaining] Capacity: 5[5] || 
+**********************************************
+QUEBEC Server, Appointment Slots forPhysician:
+No Events of Type Physician
+**********************************************
+SHERBROOKE Server, Appointment Slots forPhysician:
+No Events of Type Physician
+**********************************************
+
+DATE: 2024-03-09 11:01:16 PM userID: Admin | RequestType:  removeAppointment  | RequestParameters:  appointmentID: MTLA100324 appointmentName: Physician  | ServerResponse: Success: Appointment removed successfully
+DATE: 2024-03-09 11:01:27 PM userID: MTLA1234 | RequestType:  bookAppointment  | RequestParameters:  appointmentID: MTLA110324 appointmnentType: Physician  | ServerResponse: Success: Appointment Slot MTLA110324 Booked Successfully
+DATE: 2024-03-09 11:01:30 PM userID: MTLA1234 | RequestType:  getAppointmentSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLA110324 ||
+**********************************************
+
+DATE: 2024-03-09 11:01:42 PM userID: MTLA1234 | RequestType:  cancelEvent  | RequestParameters:  appointmentID: MTLA110324 appointmentType: Physician  | ServerResponse: Success: Appointment MTLA110324 Canceled for MTLA1234
+DATE: 2024-03-09 11:01:47 PM userID: MTLA1234 | RequestType:  getAppointmentSchedule  | RequestParameters: null | ServerResponse: Physician:
+
+**********************************************
+
+DATE: 2024-03-09 11:02:00 PM userID: MTLA1234 | RequestType:  bookAppointment  | RequestParameters:  appointmentID: MTLA110324 appointmnentType: Physician  | ServerResponse: Success: Appointment Slot MTLA110324 Booked Successfully
+DATE: 2024-03-09 11:02:02 PM userID: MTLA1234 | RequestType:  getAppointmentSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLA110324 ||
+**********************************************
+
+DATE: 2024-03-09 11:02:18 PM userID: MTLA1234 | RequestType:  cancelEvent  | RequestParameters:  appointmentID: MTLA110324 appointmentType: Physician  | ServerResponse: Success: Appointment MTLA110324 Canceled for MTLA1234
+DATE: 2024-03-09 11:02:18 PM userID: MTLA1234 | RequestType:  bookAppointment  | RequestParameters:  appointmentID: MTLA120324 appointmnentType: Physician  | ServerResponse: Success: Appointment Slot MTLA120324 Booked Successfully
+DATE: 2024-03-09 11:02:18 PM userID: MTLA1234 | RequestType:  swapAppointment  | RequestParameters:  oldAppointmentID: MTLA110324 oldAppointmentType: Physician newAppointmentID: MTLA120324 newAppointmentType: Physician  | ServerResponse: Success: Event MTLA110324 swapped with MTLA120324
+DATE: 2024-03-09 11:02:20 PM userID: MTLA1234 | RequestType:  getAppointmentSchedule  | RequestParameters: null | ServerResponse: Physician:
+MTLA120324 ||
+**********************************************
+
+DATE: 2024-03-15 06:59:19 PM  Server started....
+DATE: 2024-03-15 06:59:22 PM  Server is Up & Running
+DATE: 2024-03-15 06:59:22 PM  UDP Server Started at port 6666
+DATE: 2024-03-15 08:32:44 PM  Server started....
+DATE: 2024-03-15 08:32:45 PM  Server is Up & Running
+DATE: 2024-03-15 08:32:45 PM  UDP Server Started at port 6666

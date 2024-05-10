@@ -1,0 +1,85 @@
+DATE: 2024-03-09 10:44:50 PM  login attempt
+DATE: 2024-03-09 10:44:50 PM Admin Login Successful.
+DATE: 2024-03-09 10:45:01 PM attempting to add appointment for Physician with slot size 5
+DATE: 2024-03-09 10:45:01 PM Client Action:  bookAppointment | RequestParameters:  appointmentID: MTLA100324 appointmentType: Physician capacity: 5 | Server Response: Failed: Cannot Add Appointments to servers other than SHERBROOKE
+DATE: 2024-03-09 10:48:44 PM attempting to add appointment for Physician with slot size 5
+DATE: 2024-03-09 10:48:44 PM Client Action:  bookAppointment | RequestParameters:  appointmentID: MTLA100324 appointmentType: Physician capacity: 5 | Server Response: Failed: Cannot Add Appointments to servers other than SHERBROOKE
+DATE: 2024-03-09 10:50:17 PM  Logout Successfully
+DATE: 2024-03-09 10:50:24 PM  login attempt
+DATE: 2024-03-09 10:50:24 PM Admin Login Successful.
+DATE: 2024-03-09 10:51:45 PM  Logout Successfully
+DATE: 2024-03-09 10:57:14 PM  login attempt
+DATE: 2024-03-09 10:57:14 PM Admin Login Successful.
+DATE: 2024-03-09 10:57:23 PM attempting to add appointment for Physician with slot size 4
+DATE: 2024-03-09 10:57:23 PM Client Action:  bookAppointment | RequestParameters:  appointmentID: MTLA100324 appointmentType: Physician capacity: 4 | Server Response: Success: Appointment MTLA100324 added successfully
+DATE: 2024-03-09 10:57:30 PM attempting to check appointment availability
+DATE: 2024-03-09 10:57:30 PM Client Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Physician  | Server Response: MONTREAL Server Physician:
+ (MTLA100324) in the Afternoon of 10/03/2024 Total[Remaining] Capacity: 4[4] || 
+**********************************************
+QUEBEC Server, Appointment Slots forPhysician:
+No Events of Type Physician
+**********************************************
+SHERBROOKE Server, Appointment Slots forPhysician:
+No Events of Type Physician
+**********************************************
+
+DATE: 2024-03-09 10:57:54 PM attempting to remove appointments for Physician with appointmentID MTLA100324
+DATE: 2024-03-09 10:57:54 PM Client Action:  removeAppointment | RequestParameters:  appointmentID: MTLA100324 appointmentType: Physician  | Server Response: Success: Appointment removed successfully
+DATE: 2024-03-09 10:57:58 PM attempting to check appointment availability
+DATE: 2024-03-09 10:57:58 PM Client Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Physician  | Server Response: MONTREAL Server Physician:
+No slot for appointment PhysicianQUEBEC Server, Appointment Slots forPhysician:
+No Events of Type Physician
+**********************************************
+SHERBROOKE Server, Appointment Slots forPhysician:
+No Events of Type Physician
+**********************************************
+
+DATE: 2024-03-09 11:00:24 PM  login attempt
+DATE: 2024-03-09 11:00:24 PM Admin Login Successful.
+DATE: 2024-03-09 11:00:33 PM attempting to add appointment for Physician with slot size 5
+DATE: 2024-03-09 11:00:33 PM Client Action:  bookAppointment | RequestParameters:  appointmentID: MTLA100324 appointmentType: Physician capacity: 5 | Server Response: Success: Appointment MTLA100324 added successfully
+DATE: 2024-03-09 11:00:41 PM attempting to add appointment for Physician with slot size 5
+DATE: 2024-03-09 11:00:41 PM Client Action:  bookAppointment | RequestParameters:  appointmentID: MTLA110324 appointmentType: Physician capacity: 5 | Server Response: Success: Appointment MTLA110324 added successfully
+DATE: 2024-03-09 11:00:50 PM attempting to add appointment for Physician with slot size 5
+DATE: 2024-03-09 11:00:50 PM Client Action:  bookAppointment | RequestParameters:  appointmentID: MTLA120324 appointmentType: Physician capacity: 5 | Server Response: Success: Appointment MTLA120324 added successfully
+DATE: 2024-03-09 11:00:54 PM attempting to check appointment availability
+DATE: 2024-03-09 11:00:54 PM Client Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Physician  | Server Response: MONTREAL Server Physician:
+ (MTLA110324) in the Afternoon of 11/03/2024 Total[Remaining] Capacity: 5[5] ||  (MTLA100324) in the Afternoon of 10/03/2024 Total[Remaining] Capacity: 5[5] ||  (MTLA120324) in the Afternoon of 12/03/2024 Total[Remaining] Capacity: 5[5] || 
+**********************************************
+QUEBEC Server, Appointment Slots forPhysician:
+No Events of Type Physician
+**********************************************
+SHERBROOKE Server, Appointment Slots forPhysician:
+No Events of Type Physician
+**********************************************
+
+DATE: 2024-03-09 11:01:16 PM attempting to remove appointments for Physician with appointmentID MTLA100324
+DATE: 2024-03-09 11:01:16 PM Client Action:  removeAppointment | RequestParameters:  appointmentID: MTLA100324 appointmentType: Physician  | Server Response: Success: Appointment removed successfully
+DATE: 2024-03-09 11:01:27 PM attempting to book appointment for Physician with appointmentID MTLA110324
+DATE: 2024-03-09 11:01:27 PM Client Action:  bookAppointment | RequestParameters:  appointmentID: MTLA110324 appointmentType: Physician  | Server Response: Success: Appointment Slot MTLA110324 Booked Successfully
+DATE: 2024-03-09 11:01:30 PM attempting to get Appointment Schedule
+DATE: 2024-03-09 11:01:30 PM Client Action:  getAppointmentSchedule | RequestParameters:  null  | Server Response: Physician:
+MTLA110324 ||
+**********************************************
+
+DATE: 2024-03-09 11:01:42 PM attempting to cancel appointment for Physician with appointmentID MTLA110324
+DATE: 2024-03-09 11:01:42 PM Client Action:  cancelAppointment | RequestParameters:  appointmentID: MTLA110324 appointmentType: Physician  | Server Response: Success: Appointment MTLA110324 Canceled for MTLA1234
+DATE: 2024-03-09 11:01:47 PM attempting to get Appointment Schedule
+DATE: 2024-03-09 11:01:47 PM Client Action:  getAppointmentSchedule | RequestParameters:  null  | Server Response: Physician:
+
+**********************************************
+
+DATE: 2024-03-09 11:02:00 PM attempting to book appointment for Physician with appointmentID MTLA110324
+DATE: 2024-03-09 11:02:00 PM Client Action:  bookAppointment | RequestParameters:  appointmentID: MTLA110324 appointmentType: Physician  | Server Response: Success: Appointment Slot MTLA110324 Booked Successfully
+DATE: 2024-03-09 11:02:02 PM attempting to get Appointment Schedule
+DATE: 2024-03-09 11:02:02 PM Client Action:  getAppointmentSchedule | RequestParameters:  null  | Server Response: Physician:
+MTLA110324 ||
+**********************************************
+
+DATE: 2024-03-09 11:02:18 PM  attempting to swapAppointment
+DATE: 2024-03-09 11:02:18 PM Client Action:  swapAppointment | RequestParameters:  patientID: MTLA1234 oldAppointmentID: MTLA110324 oldAppointmentType: Physician newAppointmentID: MTLA120324 newAppointmentType: Physician  | Server Response: Success: Event MTLA110324 swapped with MTLA120324
+DATE: 2024-03-09 11:02:20 PM attempting to get Appointment Schedule
+DATE: 2024-03-09 11:02:20 PM Client Action:  getAppointmentSchedule | RequestParameters:  null  | Server Response: Physician:
+MTLA120324 ||
+**********************************************
+
